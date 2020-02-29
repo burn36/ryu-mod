@@ -23,8 +23,8 @@ assert calcsize(OFP_HEADER_PACK_STR) == OFP_HEADER_SIZE
 
 # note: while IANA assigned port number for OpenFlow is 6653,
 # 6633 is (still) the defacto standard.
-OFP_TCP_PORT = 6633
-OFP_SSL_PORT = 6633
+OFP_TCP_PORT = 6653
+OFP_SSL_PORT = 6653
 
 # Vendor/Experimenter IDs
 # https://rs.opennetworking.org/wiki/display/PUBLIC/ONF+Registry
