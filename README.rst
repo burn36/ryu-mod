@@ -14,14 +14,18 @@ is fully written in Python.
 
 Quick Start
 ===========
-Installing Ryu is quite easy::
-
-   % pip install ryu
 
 If you prefer to install Ryu from the source code::
 
-   % git clone git://github.com/osrg/ryu.git
-   % cd ryu; python ./setup.py install
+git clone git://github.com/osrg/ryu.git
+sudo cd ryu; python ./setup.py install
+
+Reinstal Ryu
+============
+sudo rm -rf /usr/local/lib/python2.7/dist-packages/ryu
+sudo python ~/ryu/setup.py install 
+
+test in ubuntu 18.04 
 
 If you want to write your Ryu application, have a look at
 `Writing ryu application <http://ryu.readthedocs.org/en/latest/writing_ryu_app.html>`_ document.
